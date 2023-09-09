@@ -12,7 +12,7 @@ const store = configureStore({
   reducer:{
     user : userReducer,
     theme: themeReducer,
-    array : arrayReducer
+    listOfUsers : arrayReducer
   }
 });
 

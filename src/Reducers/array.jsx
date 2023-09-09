@@ -5,7 +5,7 @@ let defaultArray = []
 
 
 export const arraySlice = createSlice({
-    name: "array",
+    name: "listOfUsers",
     initialState : {
         value : defaultArray
     },
