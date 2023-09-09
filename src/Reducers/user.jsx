@@ -1,6 +1,6 @@
 import {createSlice} from '@reduxjs/toolkit'
 
-
+//DO FOR A MINI CRUD OPERATION
 let defaultState = {accountNumber : "", password: ""}
 export const userSlice = createSlice({
     name : "user",
